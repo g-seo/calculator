@@ -1,0 +1,31 @@
+.calculator {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.container,
+.footer {
+    display: flex;
+    flex-grow: 1;
+}
+
+.container div {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.footer div {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.container {
+    padding: auto;
+}
